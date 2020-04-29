@@ -22,7 +22,7 @@
 # end
 
 def reverse_each_word(string)
-  split_string = string.split(" ")
+  split_string = string.split("")
   binding.pry
   reversed = []
   split_string.each{|element| reversed << element.reverse}
