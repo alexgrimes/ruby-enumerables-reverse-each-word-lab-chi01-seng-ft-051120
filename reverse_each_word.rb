@@ -17,6 +17,6 @@
 def reverse_each_word(string)
   split_string = string.split("")
   reversed = []
-  reversed.each{|element| split_string << element.reverse }
+  reversed.each{|element| reversed << element.reverse }
   reversed.join
 end
