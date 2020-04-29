@@ -1,4 +1,4 @@
-# require "pry"
+ require "pry"
 # def reverse_each_word(string)
 #   split_string = string.split("")
 #   reversed = []
@@ -17,6 +17,6 @@
 def reverse_each_word(string)
   split_string = string.split("")
   reversed = []
-  reversed.each{|element| element.reverse reversed << element.reversed }
+  reversed.each{|element| reversed << element.reverse }
   reversed.join
 end
