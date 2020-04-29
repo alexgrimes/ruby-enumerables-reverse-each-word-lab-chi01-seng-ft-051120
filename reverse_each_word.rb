@@ -26,5 +26,5 @@ def reverse_each_word(string)
   reversed = []
   split_string.each{|element| reversed << element.reverse}
   #binding.pry 
-  return reversed.join
+  return reversed.join(' ')
 end
